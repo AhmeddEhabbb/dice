@@ -8,13 +8,13 @@ document.querySelector(".img2").setAttribute("src", "./images/dice"+randomNumber
 
 if(randomNumber1>randomNumber2)
 {
-  document.querySelector("h1").innerHTML = "Ahmed Wins"
+  document.querySelector("h1").innerHTML = "🚩 Player 1 Wins"
 }
 else if(randomNumber2>randomNumber1)
 {
-  document.querySelector("h1").innerHTML = "Ganna Wins"
+  document.querySelector("h1").innerHTML = "Player 2 Wins 🚩"
 }
 
 else {
-   document.querySelector("h1").innerHTML = "t3adol"
+   document.querySelector("h1").innerHTML = "Draw!"
 }
